@@ -1,0 +1,28 @@
+{
+  "name": "innovistan",
+  "version": "1.0.0",
+  "description": "this is combination of react component sets",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagarjundeepak/innovistan.git"
+  },
+  "keywords": [
+    "innovistan"
+  ],
+  "author": "nagarjun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nagarjundeepak/innovistan/issues"
+  },
+  "homepage": "https://github.com/nagarjundeepak/innovistan#readme",
+  "dependencies": {
+    "concurrently": "^4.1.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.8",
+    "nodemon": "^1.19.1"
+  }
+}

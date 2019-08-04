@@ -1,10 +1,12 @@
-import React from 'react';
+import React from "react";
 
-function Navbar (props) {
+function Navbar(props) {
   return (
     <div>
-      <nav className="navbar navbar-light" style={{background: '#e3f2fd'}}>
-        <span className="navbar-brand">React Component Set</span>
+      <nav className="navbar navbar-light" style={{ background: "#e3f2fd" }}>
+        <a className="navbar-brand" href="/">
+          React Component Set
+        </a>
       </nav>
     </div>
   );

@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 
-function YoutubeHome (props) {
+function YoutubeHome(props) {
   return (
-    <div>
-      <p>loading...</p>
+    <div className="container">
+      <h4 className="mt-3 mb-2">Login Here</h4>
+      <br />
+      <button className="btn btn-primary">Google Sign In</button>
     </div>
   );
 }
